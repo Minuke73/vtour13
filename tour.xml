@@ -33,10 +33,10 @@
 			<cube url="panos/01789527_DJI_0532_Edit.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
 		</image>
 		
-		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.017" atv="5.819" distorted="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
-		<hotspot name="text" style="custom_hotspotext"  html="블루 마운틴 " ath="-0.017" atv="0.819" distorted="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
+		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="-0.017" atv="5.819" distorted="false" zoom="true" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text" style="custom_hotspotext"  html="블루 마운틴 " ath="-0.017" atv="0.819" distorted="false" zoom="true" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
 		<!--<hotspot type="text" name="spot4" style="custom_hotspotext2"  html="세자매봉 " ath="-16.000" atv="16.000" distorted="false" zoom="false"/>-->
-		<hotspot type="image" scale="1" enabled="false" name="arrow" url="skin/arrow.png" distorted="false" ath="-16.000" atv="16.000"/>
+		<hotspot type="image" scale="1" enabled="false" name="arrow" url="skin/arrow.png" distorted="false"  zoom="true" ath="-14.000" atv="19.000"/>
 
 	</scene>
 
